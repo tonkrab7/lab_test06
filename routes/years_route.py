@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-from models.years_model import Years
 
 years_api_router = APIRouter()
 
