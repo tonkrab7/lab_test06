@@ -5,9 +5,10 @@ orbs:
 workflows:
   my-workflow:
     jobs:
-      - build-and-test
+      - build-and-test:
           context:
             - lab_test06
+
 jobs:
   build-and-test:
     docker:
